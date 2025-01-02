@@ -24,7 +24,7 @@ function Navbar({displaySideBar, isSideBar}) {
                 />
             )}
             
-            <nav className="flex flex-row justify-between gap-3 items-center px-5 bg-slate-100 sticky top-0 z-[4000] shadow-lg">
+            <nav className="flex flex-row justify-between gap-3 items-center px-5 bg-slate-100 py-3 sticky top-0 z-[4000] shadow-lg">
                 <div className="rounded-full justify-center flex flex-row gap-2 items-center ">
                     <img 
                         className="w-[50px] h-[50px] rounded-md bg-transparent" 
