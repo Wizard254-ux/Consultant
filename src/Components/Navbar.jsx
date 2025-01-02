@@ -78,7 +78,7 @@ function Navbar({displaySideBar, isSideBar}) {
 
                 <button 
                     onClick={() => displaySideBar(prev => !prev)} 
-                    className={`mb-1 hover:cursor-pointer md:hidden ${isSideBar ? 'rotate-90' : ''} transition-transform duration-300`}
+                    className={` hover:cursor-pointer md:hidden ${isSideBar ? 'rotate-90' : ''} transition-transform duration-300`}
                 >
                     <i className="fa-solid fa-bars text-2xl"></i>
                 </button>
