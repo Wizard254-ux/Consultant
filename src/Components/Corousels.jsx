@@ -35,7 +35,7 @@ const ImageCarousel = () => {
   return (
     <div className="relative w-full h-[380px] overflow-hidden">
       {/* Carousel Container */}
-      <div className="absolute inset-0 flex transition-transform duration-1000 ease-in-out"
+      <div className="absolute  inset-0 flex transition-transform duration-1000 ease-in-out"
         style={{ 
           transform: `translateX(-${currentIndex * 100}%)`,
         //   width: `${images.length * 100}%`
@@ -57,7 +57,7 @@ const ImageCarousel = () => {
           </div>
         ))}
       </div>
-             <div class="text-overlay absolute w-[40%] md:w-[25%] h-36 items-center flex justify-start py-9">
+             <div class="text-overlay ml-[20%] mb-[3%] absolute w-[55%] justify-center md:w-[25%] h-36 items-center flex  py-9">
       <span id="text">Innovate <br/>Empower<br/> Succeed.</span>
     </div>
 
