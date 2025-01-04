@@ -1,46 +1,50 @@
 import React from 'react';
-import { MessageCircle, Target, BarChart, Briefcase } from 'lucide-react';
+import { MonitorCheck, BarChart, Database, GraduationCap } from "lucide-react";
 
 const ServicesSection = () => {
   const services = [
     {
-      icon: <Target className="w-12 h-12 text-blue-600" />,
-      title: "Strategic Consulting",
-      description: "Develop comprehensive business strategies tailored to your unique market position and growth objectives.",
+      icon: <MonitorCheck className="w-12 h-12 text-blue-600" />,
+      title: "ICT Consultancy",
+      description: "Comprehensive ICT consulting services focusing on policy development, quality assurance, and infrastructure management.",
       benefits: [
-        "In-depth market analysis",
-        "Customized strategic roadmaps",
-        "Competitive positioning"
+        "Expert advice on ICT Policy development and review",
+        "Quality Assurance on ICT systems",
+        "ICT Infrastructure Management",
+        "Information Systems Audit"
       ]
     },
     {
       icon: <BarChart className="w-12 h-12 text-green-600" />,
-      title: "Performance Optimization",
-      description: "Enhance operational efficiency and drive measurable business improvements across your organization.",
+      title: "ICT Project Management",
+      description: "End-to-end project management services for ICT implementations and infrastructure setup.",
       benefits: [
-        "Process optimization",
-        "Performance metrics design",
-        "Productivity enhancement"
+        "Full project lifecycle management from initiation to close out",
+        "Network implementation services",
+        "Cloud services implementation",
+        "Data Management solutions"
       ]
     },
     {
-      icon: <Briefcase className="w-12 h-12 text-purple-600" />,
-      title: "Digital Transformation",
-      description: "Navigate the complex landscape of digital innovation and technological integration.",
+      icon: <Database className="w-12 h-12 text-purple-600" />,
+      title: "ERP Development and Implementation",
+      description: "Specialized enterprise resource planning solutions with focus on Microsoft Dynamics NAV.",
       benefits: [
-        "Technology strategy",
-        "Digital ecosystem design",
-        "Change management"
+        "Microsoft Dynamics NAV Development",
+        "Custom ERP system implementation",
+        "System integration services",
+        "Business process automation"
       ]
     },
     {
-      icon: <MessageCircle className="w-12 h-12 text-red-600" />,
-      title: "Executive Coaching",
-      description: "Personalized leadership development and strategic decision-making support.",
+      icon: <GraduationCap className="w-12 h-12 text-red-600" />,
+      title: "Corporate ICT Training",
+      description: "Comprehensive training programs covering ERP systems, AI technologies, and basic computer applications.",
       benefits: [
-        "Leadership assessment",
-        "Skill development",
-        "Personal strategic planning"
+        "Microsoft Dynamics NAV training",
+        "AI and Machine Learning workshops",
+        "MS Office Suite training",
+        "Graphic Design and Internet Programming"
       ]
     }
   ];

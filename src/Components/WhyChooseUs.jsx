@@ -32,7 +32,7 @@ const WhyChooseUS = () => {
     <div className="bg-gray-100 py-12">
       <div className="max-w-7xl mx-auto flex justify-center flex-col items-center px-6 lg:px-8">
         <h2 className="text-center text-3xl font-bold text-gray-800 mb-8">
-          Why Choose Alpha Consultancy
+          Why Choose ERISPE IT SOLUTIONS & CONSULTANCY
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6">
           {features.map((feature, index) => (

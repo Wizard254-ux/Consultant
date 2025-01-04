@@ -6,29 +6,29 @@ const GallerySection = () => {
 
   const galleryImages = [
     {
-      src: "https://images.pexels.com/photos/6913241/pexels-photo-6913241.jpeg?auto=compress&cs=tinysrgb&w=300",
+      src: "team.png",
       alt: "Team Strategy Session",
       description: "Collaborative strategy planning with executive team"
     },
     {
-      src: "https://images.pexels.com/photos/6592684/pexels-photo-6592684.jpeg?auto=compress&cs=tinysrgb&w=300",
+      src: "analysis2.png",
       alt: "Data Analysis Workshop",
       description: "In-depth data visualization and insights presentation"
     },
     {
-      src: "https://images.pexels.com/photos/29708245/pexels-photo-29708245/free-photo-of-public-speaking-event-in-modern-conference-room.jpeg?auto=compress&cs=tinysrgb&w=300",
+      src: "omuya.png",
       alt: "Leadership Training",
       description: "Interactive leadership development seminar"
     },
     {
-      src: "https://images.pexels.com/photos/7821671/pexels-photo-7821671.jpeg?auto=compress&cs=tinysrgb&w=300",
+      src: "team2.png",
       alt: "Client Consultation",
       description: "One-on-one strategic consulting session"
     },
     {
-      src: "https://images.pexels.com/photos/5532832/pexels-photo-5532832.jpeg?auto=compress&cs=tinysrgb&w=300",
+      src: "programming.png",
       alt: "Technology Innovation",
-      description: "Digital transformation workshop"
+      description: "Programming "
     },
     {
       src: "https://images.pexels.com/photos/6120166/pexels-photo-6120166.jpeg?auto=compress&cs=tinysrgb&w=300",

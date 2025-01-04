@@ -9,7 +9,7 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold text-gray-100 mb-4">About Us</h3>
             <p className="text-sm">
-              Alpha Consulting provides innovative solutions and expertise
+              ERISPE IT SOLUTIONS & CONSULTANCY provides innovative solutions and expertise
               to help businesses thrive and achieve their goals.
             </p>
           </div>
@@ -44,10 +44,17 @@ const Footer = () => {
               <li>
                 <span className="font-semibold">Email:</span>{' '}
                 <a
-                  href="mailto:info@bobgrogan.com"
+                  href="mailto:erispesolutions@gmail.com"
                   className="hover:text-blue-400 transition"
-                >
-                  brianndesa262@gmail.com
+                >erispesolutions@gmail.com <br/>
+           
+                </a>
+                <span className="font-semibold">Email:</span>{' '}
+                <a
+                  href="mailto:omuya2005@gmail.com"
+                  className="hover:text-blue-400 transition"
+                >omuya2005@gmail.com
+               
                 </a>
               </li>
               <li>
@@ -56,12 +63,11 @@ const Footer = () => {
                   href="tel:+254113765336"
                   className="hover:text-blue-400 transition"
                 >
-                  254113765336
+                  +254727211203
                 </a>
               </li>
               <li>
-                <span className="font-semibold">Address:</span> 90100 Machakos Town,
-                Kenya
+                <span className="font-semibold">Address:</span> 555 00100 Nairobi, Kenya
               </li>
             </ul>
           </div>
@@ -69,10 +75,10 @@ const Footer = () => {
 
         {/* Footer Bottom */}
         <div className="mt-8 border-t border-gray-700 pt-4 flex flex-col sm:flex-row justify-between items-center text-sm">
-          <p>&copy; 2024 Alpha Consulting. All Rights Reserved.</p>
+          <p>&copy; 2024 ERISPE IT SOLUTIONS & CONSULTANCY. All Rights Reserved.</p>
           <div className="flex space-x-4 mt-4 sm:mt-0">
             <a
-              href="https://facebook.com"
+              href="https://facebook.com/erispesolutions"
               className="hover:text-blue-500 transition"
               target="_blank"
               rel="noopener noreferrer"
@@ -80,7 +86,7 @@ const Footer = () => {
               Facebook
             </a>
             <a
-              href="https://twitter.com"
+              href="https://twitter.com/#erispesolutions"
               className="hover:text-blue-400 transition"
               target="_blank"
               rel="noopener noreferrer"
@@ -88,7 +94,7 @@ const Footer = () => {
               Twitter
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://linkedin.com/erispesolutions"
               className="hover:text-blue-600 transition"
               target="_blank"
               rel="noopener noreferrer"
