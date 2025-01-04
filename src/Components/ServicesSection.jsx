@@ -52,13 +52,12 @@ const ServicesSection = () => {
   return (
     <section className="pb-16 bg-gray-50">
       <div className="  ">
-        <div className="text-center h-[200px] w-full pt-6 mb-12 bg-gray-300" 
-  style={{
+      <div className="text-center mb-12 h-[140px] md:h-[200px] bg-gray-300 pt-7"style={{
     backgroundImage: "url('https://bobgroganconsulting.com/wp-content/themes/smallville/assets/images/bg-pattern.png')",
   }}
 >
-          <h2 className="text-4xl font-bold text-gray-800 mb-4">Our Consulting Services</h2>
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+          <h2 className="text-2xl md:text-4xl font-bold text-gray-800 mb-4">Our Consulting Services</h2>
+          <p className="text-base md:text-xl text-gray-600 max-w-2xl mx-auto">
             Empowering businesses through strategic insights, innovative solutions, and transformative expertise.
           </p>
         </div>

@@ -57,11 +57,11 @@ const GallerySection = () => {
   return (
     <section className="pb-16 bg-white">
       <div className="w-full mx-auto ">
-        <div className="text-center mb-12 pt-8  h-[200px] bg-gray-300" style={{
+      <div className="text-center mb-12 h-[140px] md:h-[200px] bg-gray-300 pt-7"style={{
     backgroundImage: "url('https://bobgroganconsulting.com/wp-content/themes/smallville/assets/images/bg-pattern.png')",
   }}>
-          <h2 className="text-4xl font-bold text-gray-800 mb-4">Our Work in Action</h2>
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+          <h2 className="text-2xl md:text-4xl font-bold text-gray-800 mb-4">Our Work in Action</h2>
+          <p className="text-base md:text-xl text-gray-600 max-w-2xl mx-auto">
             Glimpse into our collaborative approach and transformative consulting engagements
           </p>
         </div>
