@@ -69,6 +69,16 @@ const Footer = () => {
               <li>
                 <span className="font-semibold">Address:</span> 555 00100 Nairobi, Kenya
               </li>
+              <li>
+                <span className="font-semibold">Website:</span>{' '}
+              <a
+                  href="https://www.erispe.co.ke"
+                  className="hover:text-blue-400 transition"
+                >www.erispe.co.ke <br/>
+           
+                </a>
+              
+              </li>
             </ul>
           </div>
         </div>
