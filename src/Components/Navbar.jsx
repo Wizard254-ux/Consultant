@@ -73,6 +73,14 @@ function Navbar({displaySideBar, isSideBar}) {
                     </li>
                     <li>
                         <span 
+                            onClick={() => goTo('/About')}
+                            className="md:buttons hover:cursor-pointer border-b-4 border-s-white block py-3 px-4 w-full md:bg-gray-200 md:hover:bg-gray-300 hover:bg-gray-200 hover:text-black text-md rounded-md transition-colors duration-300"
+                        >
+                           <i class="fa-solid fa-info mr-2"></i>About Us
+                        </span>
+                    </li>
+                    <li>
+                        <span 
                             onClick={() => goTo('/Contact')}
                             className="md:buttons hover:cursor-pointer border-b-4 border-s-white block py-3 px-4 md:bg-gray-200 md:hover:bg-gray-300 hover:bg-gray-200 hover:text-black text-md rounded-md transition-colors duration-300"
                         >
