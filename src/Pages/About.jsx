@@ -29,17 +29,16 @@ export default function AboutPage ({isSideBar,displaySideBar}) {
           <div className="bg-white rounded-2xl shadow-xl overflow-hidden transform hover:scale-105 transition-transform duration-300">
             <div className="h-48 bg-gray-200">
               <img
-                src="omuya.png"
-                alt="Sarah Chen"
+                src="DrErick2.jpg"
+                alt="Dr Omuya"
                 className="w-full h-full object-cover"
               />
             </div>
             <div className="p-6">
-              <h3 className="text-xl font-bold text-gray-900">Mr Omuya</h3>
-              <p className="text-blue-600 font-medium mb-2">Chief Executive Officer</p>
+              <h3 className="text-xl font-bold text-gray-900">Dr. Erick O. Omuya, Ph.D.</h3>
+              <p className="text-blue-600 font-medium mb-2">CEO Erispe IT Solutions</p>
               <p className="text-gray-600 text-sm">
-                Visionary leader with 15+ years of experience in transforming businesses through technology.
-              </p>
+              Dr. Erick Omuya, a Machakos University lecturer and CEO of Erispe IT Solutions, holds a PhD in IT from JKUAT. His research focuses on AI-driven classification, clustering, and prediction. He has trained in conferences and led multiple projects. </p>
             </div>
           </div>
 
@@ -47,17 +46,16 @@ export default function AboutPage ({isSideBar,displaySideBar}) {
           <div className="bg-white rounded-2xl shadow-xl overflow-hidden transform hover:scale-105 transition-transform duration-300">
             <div className="h-48 bg-gray-200">
               <img
-                src="/api/placeholder/400/300"
-                alt="Marcus Rodriguez"
+                src="Atieno.jpg"
+                alt="CPA Spencer Atieno"
                 className="w-full h-full object-cover"
               />
             </div>
             <div className="p-6">
-              <h3 className="text-xl font-bold text-gray-900">Marcus Rodriguez</h3>
-              <p className="text-blue-600 font-medium mb-2">Chief Technology Officer</p>
+              <h3 className="text-xl font-bold text-gray-900">CPA Spencer Atieno</h3>
+              <p className="text-blue-600 font-medium mb-2">Finance Manager</p>
               <p className="text-gray-600 text-sm">
-                Tech innovator with a proven track record in Silicon Valley's most dynamic startups.
-              </p>
+              CPA Spencer Atieno, an experienced accountant and accounting systems developer, she has worked for Dynasoft System Solutions and CoreTEC Solutions. She specializes in developing, training, and implementing Microsoft Navision systems for organizations.  </p>
             </div>
           </div>
 
@@ -66,16 +64,15 @@ export default function AboutPage ({isSideBar,displaySideBar}) {
             <div className="h-48 bg-gray-200">
               <img
                 src="/api/placeholder/400/300"
-                alt="Maya Patel"
+                alt="CPA Benard Kisero"
                 className="w-full h-full object-cover"
               />
             </div>
             <div className="p-6">
-              <h3 className="text-xl font-bold text-gray-900">Maya Patel</h3>
-              <p className="text-blue-600 font-medium mb-2">Chief Operating Officer</p>
+              <h3 className="text-xl font-bold text-gray-900">CPA Benard Kisero</h3>
+              <p className="text-blue-600 font-medium mb-2">CPA Benard Kisero</p>
               <p className="text-gray-600 text-sm">
-                Strategic operations leader bringing global perspective to business optimization.
-              </p>
+              CPA Ben Kisero has a wide experience on matters finance and operational management. He has engaged in accounting and tax management for various organizations. He has also been a trainer on matters finance and ICT.              </p>
             </div>
           </div>
         </div>
@@ -92,7 +89,7 @@ export default function AboutPage ({isSideBar,displaySideBar}) {
                 Our journey began with a small team of innovators and has grown into a global force of over 100 talented professionals.
               </p>
               <p>
-                Today, we're proud to serve clients across three continents, bringing together diverse perspectives and cutting-edge 
+                Today, we're proud to serve clients, bringing together diverse perspectives and cutting-edge 
                 expertise to solve complex challenges. Our success is built on a foundation of continuous learning, bold innovation, 
                 and unwavering commitment to excellence.
               </p>

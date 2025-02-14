@@ -1,8 +1,9 @@
 import React from 'react';
+import { Facebook, Twitter, Linkedin} from 'lucide-react';
 
 const Footer = () => {
   return (
-    <footer className="bg-slate-700 text-gray-200 py-8">
+    <footer className="bg-slate-700 text-gray-200 py-8 ">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {/* About Section */}
@@ -44,9 +45,9 @@ const Footer = () => {
               <li>
                 <span className="font-semibold">Email:</span>{' '}
                 <a
-                  href="mailto:erispesolutions@gmail.com"
+                  href="mailto:eripeit@gmail.com"
                   className="hover:text-blue-400 transition"
-                >erispesolutions@gmail.com <br/>
+                >eripeit@gmail.com <br/>
            
                 </a>
                 <span className="font-semibold">Email:</span>{' '}
@@ -72,9 +73,9 @@ const Footer = () => {
               <li>
                 <span className="font-semibold">Website:</span>{' '}
               <a
-                  href="https://www.erispe.co.ke"
+                  href="https://www.erispe.co.ke/About"
                   className="hover:text-blue-400 transition"
-                >www.erispe.co.ke <br/>
+                >www.erispe.co.ke<br/>
            
                 </a>
               
@@ -86,32 +87,35 @@ const Footer = () => {
         {/* Footer Bottom */}
         <div className="mt-8 border-t border-gray-700 pt-4 flex flex-col sm:flex-row justify-between items-center text-sm">
           <p>&copy; 2024 ERISPE IT SOLUTIONS & CONSULTANCY. All Rights Reserved.</p>
-          <div className="flex space-x-4 mt-4 sm:mt-0">
-            <a
-              href="https://facebook.com/erispesolutions"
-              className="hover:text-blue-500 transition"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Facebook
-            </a>
-            <a
-              href="https://twitter.com/#erispesolutions"
-              className="hover:text-blue-400 transition"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Twitter
-            </a>
-            <a
-              href="https://linkedin.com/erispesolutions"
-              className="hover:text-blue-600 transition"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              LinkedIn
-            </a>
-          </div>
+          <div className="flex space-x-6">
+                <a
+                  href="https://facebook.com/erispesolutions"
+                  className="text-sm hover:text-blue-500 transition flex items-center gap-2"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Facebook size={16} />
+                  Facebook
+                </a>
+                <a
+                  href="https://twitter.com/#erispesolutions"
+                  className="text-sm hover:text-blue-400 transition flex items-center gap-2"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Twitter size={16} />
+                  Twitter
+                </a>
+                <a
+                  href="https://linkedin.com/erispesolutions"
+                  className="text-sm hover:text-blue-600 transition flex items-center gap-2"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Linkedin size={16} />
+                  LinkedIn
+                </a>
+              </div>
         </div>
       </div>
     </footer>

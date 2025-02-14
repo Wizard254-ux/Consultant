@@ -16,7 +16,7 @@ const GallerySection = () => {
       description: "In-depth data visualization and insights presentation"
     },
     {
-      src: "omuya.png",
+      src: "DrErick2.jpg",
       alt: "Leadership Training",
       description: "Interactive leadership development seminar"
     },
