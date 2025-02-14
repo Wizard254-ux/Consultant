@@ -21,9 +21,14 @@ const GallerySection = () => {
       description: "Interactive leadership development seminar"
     },
     {
-      src: "team2.png",
-      alt: "Client Consultation",
-      description: "One-on-one strategic consulting session"
+      src: "TeamWork.jpg",
+      alt: "Youth Consultation",
+      description: "Building the youth"
+    },
+    {
+      src: "OmuyaAi.jpg",
+      alt: "AI Conference",
+      description: "Attending Artificial Inteligence Conference"
     },
     {
       src: "programming.png",
@@ -31,10 +36,20 @@ const GallerySection = () => {
       description: "Programming "
     },
     {
+      src: "OmuyaSelfie.jpg",
+      alt: "Team Meeting",
+      description: "Planning on Organization Strategy "
+    },
+    {
       src: "https://images.pexels.com/photos/6120166/pexels-photo-6120166.jpeg?auto=compress&cs=tinysrgb&w=300",
       alt: "Business Metrics Review",
       description: "Performance optimization meeting"
-    }
+    },
+    {
+      src: "OmuyaNew.jpg",
+      alt: "Technology Innovation",
+      description: "Artificial intelligence Conference at Nairobi "
+    },
   ];
 
   const openImageModal = (image) => {
