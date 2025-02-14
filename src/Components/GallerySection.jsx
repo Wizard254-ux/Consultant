@@ -6,37 +6,37 @@ const GallerySection = () => {
 
   const galleryImages = [
     {
-      src: "team.png",
+      src: "team.webp",
       alt: "Team Strategy Session",
       description: "Collaborative strategy planning with executive team"
     },
     {
-      src: "analysis2.png",
+      src: "analysis2.webp",
       alt: "Data Analysis Workshop",
       description: "In-depth data visualization and insights presentation"
     },
     {
-      src: "DrErick2.jpg",
+      src: "DrErick2.webp",
       alt: "Leadership Training",
       description: "Interactive leadership development seminar"
     },
     {
-      src: "TeamWork.jpg",
+      src: "TeamWork.webp",
       alt: "Youth Consultation",
       description: "Building the youth"
     },
     {
-      src: "OmuyaAi.jpg",
+      src: "OmuyaAi.webp",
       alt: "AI Conference",
       description: "Attending Artificial Inteligence Conference"
     },
     {
-      src: "programming.png",
+      src: "programming.webp",
       alt: "Technology Innovation",
       description: "Programming "
     },
     {
-      src: "OmuyaSelfie.jpg",
+      src: "OmuyaSelfie.webp",
       alt: "Team Meeting",
       description: "Planning on Organization Strategy "
     },
@@ -46,7 +46,7 @@ const GallerySection = () => {
       description: "Performance optimization meeting"
     },
     {
-      src: "OmuyaNew.jpg",
+      src: "OmuyaNew.webp",
       alt: "Technology Innovation",
       description: "Artificial intelligence Conference at Nairobi "
     },
